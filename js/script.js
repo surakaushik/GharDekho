@@ -17,15 +17,3 @@ function changeBg(bg, title) {
     items.forEach(item => item.classList.remove('active'));
     event.currentTarget.classList.add('active');
 }
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     var elems = document.querySelectorAll('.carousel');
-//     M.Carousel.init(elems, {
-//         duration: 300,
-//         dist: -30,
-//         shift: 0,
-//         padding: 20,
-//         numVisible: 5,
-//         indicators: false
-//     });
-// });
